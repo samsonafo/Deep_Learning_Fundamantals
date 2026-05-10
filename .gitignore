@@ -1,2 +1,5 @@
 deep_learning/
 deep_learning_311/
+.gitignore
+.DS_Store
+.ipynb_checkpoints/
