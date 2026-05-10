@@ -1,0 +1,36 @@
+# ─────────────────────────────────────────────────────────────────
+# Data Science Retreat — Intro to Deep Learning & Backpropagation
+# Python 3.10, 3.11, or 3.12 recommended
+#
+# ⚠️  PyTorch is NOT on the default PyPI index.
+#     Do NOT run: pip install -r requirements.txt directly.
+#     Follow the install instructions in README.md instead.
+# ─────────────────────────────────────────────────────────────────
+
+# Core scientific stack (standard PyPI)
+numpy>=1.24,<2.0
+matplotlib>=3.7
+scikit-learn>=1.3
+pandas>=2.0
+tqdm>=4.65
+
+# Jupyter environment (standard PyPI)
+jupyter>=1.0
+notebook>=7.0
+ipykernel>=6.25
+
+# ─────────────────────────────────────────────────────────────────
+# PyTorch — install separately using the commands in README.md.
+# The correct command depends on your OS and whether you have a GPU.
+#
+# CPU only (works on all platforms):
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cpu
+#
+# CUDA 12.1 (NVIDIA GPU):
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
+#
+# macOS (Apple Silicon or Intel — CPU only via default PyPI):
+#   pip install torch torchvision
+# ─────────────────────────────────────────────────────────────────
+# torch>=2.1
+# torchvision>=0.16
